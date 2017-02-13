@@ -42,7 +42,7 @@
 #include "php_bson.h"
 
 
-PHONGO_API zend_class_entry *php_phongo_subscriber_ce;
+zend_class_entry *php_phongo_subscriber_ce;
 
 /* {{{ MongoDB\Monitoring\Subscriber */
 static zend_function_entry php_phongo_subscriber_me[] = {
